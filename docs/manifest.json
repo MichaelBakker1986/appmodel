@@ -1,10 +1,11 @@
 {
   "short_name": "Gift lee",
   "name": "Gift lee - clothes and toys for youngsters",
+  "description": "Leuk dat je een kijkje komt nemen op onze pagina en de tijd wilt nemen om te lezen wie er achter de website Gift lee zit.Gift lee is een gezellige webshop vol leuke en hippe producten voor baby’s en kinderen. Naast baby en kinderkleding hebben wij in ons assortiment ook een ruime collectie aan speelgoed",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "256x256 128x128 64x64 32x32 24x24 16x16",
+      "sizes": "256x256",
       "type": "image/x-icon"
     },
     {
@@ -20,10 +21,31 @@
     {
       "src": "img/giftlee-link.jpg",
       "type": "image/jpg",
-      "sizes": "1200x900"
+      "sizes": "1280x960"
     }
   ],
-  "start_url": ".",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Children's toys",
+      "short_name": "Children's toys",
+      "description": "View top deals for children's toys",
+      "url": "/search/category/Speelgoed",
+      "icons": [
+        {"src": "/img/speel-goederen.jpg", "sizes": "1330x1331"}
+      ]
+    },
+    {
+      "name": "Children's clothing",
+      "short_name": "Children's clothing",
+      "description": "View top deals for children's clothing",
+      "url": "/search/category/Kleding",
+      "icons": [
+        {"src": "/img/princess-beauty.jpg", "sizes": "1246x1247"}
+      ]
+    }
+  ],
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
